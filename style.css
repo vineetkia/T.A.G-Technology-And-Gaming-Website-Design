@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Anurati'; 
+    src: url('Anurati.otf'); 
+}
+body{
+    background-color:#000;
+    color:#555;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.6em;
+    margin:10%;
+
+}
+.resp{
+    max-width: 75%;
+}
+.resp1{
+    max-width: 100%;
+}
+hr {
+  background: linear-gradient(to right, orange, black);
+  height: 0.5px;
+  border:0;
+}
+h1{
+    color:#fff;
+    font-family: Anurati;
+    font-size: 40px;
+}
+p{
+    color: #fff;    
+}
+#main{
+    float:left;
+    width:50%;
+    
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float:right;
+    width:50%;
+    background: #000;
+    padding-top: 20px;
+
+}
