@@ -390,6 +390,7 @@ button {
 }
 /* -Hero Image Caption- */
 .hero-caption {
+    font-family: Anurati, sans-serif;
     position: absolute;
     top: 35%;
     left: 15%;
