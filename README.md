@@ -1,1 +1,1 @@
-# 📢 Technology And Gaming Club [ Website Files ]
+# 📢Technology And Gaming Club [ Website Files ]
