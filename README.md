@@ -1,4 +1,1 @@
-I am Vintu baba
-
-
-Dipto Is Admin of Repo
+# Technology And Gaming Club [ Website Files ]
