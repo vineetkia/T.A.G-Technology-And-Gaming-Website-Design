@@ -73,14 +73,20 @@ ___________    _____        ________
                         <li class="nav-item active">
                             <a class="nav-link" href="#about">ABOUT</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="#games">GAMES</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="#team">BOARD</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="#events">EVENTS</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#careers">CLUB</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="#projects">PROJECTS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">CONTACT</a>
@@ -119,221 +125,19 @@ ___________    _____        ________
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <p class="small-margin">We are a dedicated team of developers, designers, artists, programmers, and most importantly gaming enthusiasts - " THE TEAM "</p>
-                    <img id="awards" src="images/awards.png" class="img-fluid" alt="awads">
+                    <p class="small-margin" id="pjust">We are the premium gaming and technology club of Vellore Institute of Technology. To us, technology is a goal and gaming a religion. Following our tagline, the club hosts two major gaming events namely Game-a-thon and VIT Gamers league along with a numerous workshops on game development, web-development, UI-UX, 
+                    design and Artificial intelligence.While our gaming events witness thousands of game enthusiasts every year, 
+                    putting in a lot of hardwork to win our humongous prize pools.Our technical workshops are attended by exuberant participants with a zeal to learn and often with the aim to be a part of our core club.  Through Our latest 
+                    venture TAG PROJECTS we aim to undertake projects on the latest techWe and also host annual Game development 
+                    workshop Studio-2-Stage where participants can learn to design their games from real world professionals.- 
+                    "THE TEAM "</p>
                 </div>
                 <div class="col-md-6">
                     <img id="support-image" src="images/placeholder.jpg" data-src="images/digital_collage.png" class="img-fluid b-lazy" alt="digital collage">
                 </div>
             </div>
         </div>
-        <!-- /// GAMES SECTION /// -->
-        <div id="games" class="large-margin">
-            <a href="games"></a><!-- Nav Anchor -->
-            <div class="row heading tiny-margin">
-                <div class="col-md-auto">
-                    <h1 class="animation-element slide-down">OUR <span class="colored">GAMES</span></h1>
-                </div>
-                <div class="col">
-                    <hr class="animation-element extend">
-                </div>
-            </div>
-            <div class="row ">
-                <div class="col-md-11 small-margin">
-                   <p>Here at TAG Club we pride ourselves in delivering rich and polished experiences that our fanbase can enjoy and immerse themselve into.</p>
-                </div>
-                <div class="col-md-12">
-                    <ul class="game-tags">
-                        <li>Sort BY:</li>
-                        <li><a href="#" data-filter=".pc">First Person Shooter</a></li>
-                        <li><a href="#" data-filter=".mobile">Adventure</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="games-portfolio ">
-                <!-- Game Card Video -->
-                <div class="row game-card pc new">
-                    <div class="col-lg-12 col-xl-5 game-card-left">
-                        <a href="https://www.youtube.com/watch?v=85Bu12nW5xE" class="js-video-button" data-video-id='85Bu12nW5xE' data-channel="youtube"> <!-- Video link goes here -->
-                            <div class="overlay">
-                                <i class="fa fa-play fa-3x"></i>
-                            </div>
-                            <img src="games-photo/csgo.jpg" data-src="images/game3.jpg" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
-                        </a>
-                    </div>
-                    <div class="col-lg-12 col-xl-7 game-card-right">
-                        <h2 class="short-hr-left">Counter Strike Global Offensive</h2>
-                        <p class="tags"><span class="subtle">Action FPS | PC</span> </p>
-                        <p class="game-description">Counter-Strike is a series of multiplayer first-person shooter video games, in which teams of terrorists battle to perpetrate an act of terror and counter-terrorists try to prevent it. The series began on Windows in 1999 with the first game, Counter-Strike.</p>
-                        <div class="steam-btn">
-                            <a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/">
-                                <i class="fa fa-steam fa-3x"></i>
-                                <p>GET IT ON <br><span class="spaced">STEAM</span></p>
-                            </a>
-                        </div>
-                        <div class="reviews">
-                            <a href="#"><div class="score-card">
-                                <p class="score">8.0</p>
-                                <p>Gamespot</p>
-                            </div></a>
-                            <a href="#"><div class="score-card">
-                                <p class="score">7.9</p>
-                                <p>IGN</p>
-                            </div></a>
-                            <a href="#"><div class="score-card">
-                                <p class="score">86</p>
-                                <p>Metacritic</p>
-                            </div></a>
-                        </div>
-                    </div>
-                    <!-- Modal -->
-                    <div class="modal fade game-modal" id="game1" tabindex="-1" role="dialog" aria-labelledby="scales" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <div class="modal-content">
-                                <div class="modal-footer">
-                                    <button type="button" class="button secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                     </div>
-                </div><!-- Game Card End -->
-                
-                <!-- Game Card Video -->
-                <div class="row game-card mobile new">
-                    <div class="col-lg-12 col-xl-5 game-card-left">
-                        <a href="https://www.youtube.com/watch?v=bYa1b5PX7W4" class="js-video-button" data-video-id='bYa1b5PX7W4' data-channel="youtube"> <!-- Video link goes here -->
-                            <div class="overlay">
-                                <i class="fa fa-play fa-3x"></i>
-                            </div>
-                            <img src="games-photo/dota.jpg" data-src="images/game4.jpg" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
-                        </a>
-                    </div>
-                    <div class="col-lg-12 col-xl-7 game-card-right">
-                        <h2 class="short-hr-left">DOTA</h2>
-                        <p class="tags"><span class="subtle">Horror Adventure | PC</span> </p>
-                        <p class="game-description">Dota 2 is a multiplayer online battle arena video game developed and published by Valve Corporation. The game is a sequel to Defense of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III: Reign of Chaos and its expansion pack, The Frozen Throne. </p>
-                        <div class="steam-btn">
-                            <a href="https://store.steampowered.com/app/570/Dota_2/">
-                                <i class="fa fa-steam fa-3x"></i>
-                                <p>GET IT ON <br><span class="spaced">STEAM</span></p>
-                            </a>
-                        </div>
-                        <div class="rating">
-                            <p class="strong">4.5</p>
-                            <ul>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star-o"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Modal -->
-                    <div class="modal fade game-modal" id="game2" tabindex="-1" role="dialog" aria-labelledby="bedlam" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <div class="modal-content">
-                                <div class="modal-footer">
-                                    <button type="button" class="button secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                     </div>
-                </div><!-- Game Card End -->
-                
-                <!-- Game Card -->
-                <div class="row game-card pc">
-                    <div class="col-lg-12 col-xl-5 game-card-left">
-                        <a href="https://www.youtube.com/watch?v=0U8OjUSVw8k" class="js-video-button" data-video-id='0U8OjUSVw8k' data-channel="youtube"> <!-- Video link goes here -->
-                            <div class="overlay">
-                                <i class="fa fa-play fa-3x"></i>
-                            </div>
-                            <img src="games-photo/tc.jpg" data-src="images/game3.jpg" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
-                        </a>
-                        <a href="images/game1.1.jpg" data-lightbox="screenshots_aurora"></a>
-                        <a href="images/game1.2.jpg" data-lightbox="screenshots_aurora"></a>
-                    </div>
-                    <div class="col-lg-12 col-xl-7 game-card-right">
-                        <h2 class="short-hr-left">Tom Clancy's Rainbow Six Seige</h2>
-                        <p class="tags"><span class="subtle">Action FPS | PC</span> </p>
-                        <p class="game-description">Tom Clancy's Rainbow Six Siege is an online tactical shooter video game developed by Ubisoft Montreal and published by Ubisoft. It was released worldwide for Microsoft Windows, PlayStation 4, and Xbox One on December 1, 2015. The game puts heavy emphasis on environmental destruction and cooperation between players.</p>
-                        <div class="steam-btn">
-                            <a href="https://store.steampowered.com/app/359550/Tom_Clancys_Rainbow_Six_Siege/">
-                                <i class="fa fa-steam fa-3x"></i>
-                                <p>GET IT ON <br><span class="spaced">STEAM</span></p>
-                            </a>
-                        </div>
-                        <div class="reviews">
-                            <a href="#"><div class="score-card">
-                                <p class="score">8.5</p>
-                                <p>Gamespot</p>
-                            </div></a>
-                            <a href="#"><div class="score-card">
-                                <p class="score">8.1</p>
-                                <p>IGN</p>
-                            </div></a>
-                            <a href="#"><div class="score-card">
-                                <p class="score">83</p>
-                                <p>Metacritic</p>
-                            </div></a>
-                        </div>
-                    </div>
-                    <!-- Modal -->
-                    <div class="modal fade game-modal" id="game3" tabindex="-1" role="dialog" aria-labelledby="aurora" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <div class="modal-content">
-                                <div class="modal-footer">
-                                    <button type="button" class="button secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                     </div>
-                </div><!-- Game Card End -->
-                
-                <!-- Game Card -->
-                <div class="row game-card mobile">
-                    <div class="col-lg-12 col-xl-5 game-card-left">
-                        <a href="https://www.youtube.com/watch?v=cqqvPdV_wv4" class="js-video-button" data-video-id='cqqvPdV_wv4' data-channel="youtube"> <!-- Video link goes here -->
-                            <div class="overlay">
-                                <i class="fa fa-play fa-3x"></i>
-                            </div>
-                            <img src="games-photo/fifa.jpg" data-src="images/game3.jpg" class="img-fluid b-lazy" alt="video thumbnail"> <!-- Video Thumbnail Img -->
-                        </a>
-                        <a href="images/game2.1.jpg" data-lightbox="screenshots_dark"></a>
-                        <a href="images/game2.2.jpg" data-lightbox="screenshots_dark"></a>
-                    </div>
-                    <div class="col-lg-12 col-xl-7 game-card-right">
-                        <h2 class="short-hr-left">FIFA</h2>
-                        <p class="tags"><span class="subtle">SPORTS | PC</span></p>
-                        <p class="game-description">FIFA, also known as FIFA Football or FIFA Soccer, is a series of association football video games or football simulator, released annually by Electronic Arts under the EA Sports label.</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.ea.gp.fifamobile&hl=en_IN" class="button-store">
-                            <i class="fa fa-android fa-2x"></i>
-                            <p>Available on<br><span class="strong">Google Play</span></p>
-                        </a>
-                        <div class="rating">
-                            <p class="strong">4.1</p>
-                            <ul>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star colored"></i></li>
-                                <li><i class="fa fa-star-o"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- Modal -->
-                    <div class="modal fade game-modal" id="game4" tabindex="-1" role="dialog" aria-labelledby="echo" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <div class="modal-content">
-                                <div class="modal-footer">
-                                    <button type="button" class="button secondary" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- Game Card End -->
-            </div>
-        </div>
+        
         <!-- /// TEAM SECTION /// -->
         <div id="team" class="large-margin">
             <a href="team"></a><!-- Nav Anchor -->
@@ -353,15 +157,6 @@ ___________    _____        ________
                     <div class="col-md-3 team-card">
                         <figure>
                             <img src="images/placeholder.jpg" data-src="board/box1/Chairperson.jpg" class="img-fluid b-lazy" alt="teammember">
-                            <figcaption class="team-caption">
-                                <p>“Description about the TAG board member”</p>
-                                <hr class="hr-short">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                                </ul>
-                            </figcaption>
                         </figure>
                         <p class="team-name">RITWIK</p>
                         <p class="subtle">CHAIR PERSON</p>
@@ -369,15 +164,7 @@ ___________    _____        ________
                     <div class="col-md-3 team-card">
                         <figure>
                             <img src="images/placeholder.jpg" data-src="board/box1/Vice-Chair.jpg" class="img-fluid b-lazy" alt="teammember">
-                            <figcaption class="team-caption">
-                                <p>“Description about the TAG board member”</p>
-                                <hr class="hr-short">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                                </ul>
-                            </figcaption>
+                                               
                         </figure>
                         <p class="team-name">SHASHWAT</p>
                         <p class="subtle">VICE CHAIR</p>
@@ -385,15 +172,6 @@ ___________    _____        ________
                     <div class="col-md-3 team-card">
                         <figure>
                             <img src="images/placeholder.jpg" data-src="board/box1/Gen-Sec.jpg" class="img-fluid b-lazy" alt="teammember">
-                            <figcaption class="team-caption">
-                                <p>“Description about the TAG board member”</p>
-                                <hr class="hr-short">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                                </ul>
-                            </figcaption>
                         </figure>
                         <p class="team-name">ARJEET</p>
                         <p class="subtle">GENERAL SECRETARY</p>
@@ -401,15 +179,6 @@ ___________    _____        ________
                     <div class="col-md-3 team-card">
                         <figure>
                             <img src="images/placeholder.jpg" data-src="board/box1/Tech-Head.jpg" class="img-fluid b-lazy" alt="teammember">
-                            <figcaption class="team-caption">
-                                <p>“Description about the TAG board member”</p>
-                                <hr class="hr-short">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                                </ul>
-                            </figcaption>
                         </figure>
                         <p class="team-name">SAUMYA</p>
                         <p class="subtle">TECHNICAL HEAD</p>
@@ -419,15 +188,6 @@ ___________    _____        ________
                     <div class="col-md-3 team-card">
                         <figure>
                             <img src="images/placeholder.jpg" data-src="board/box1/PR-Head.jpg" class="img-fluid b-lazy" alt="teammember">
-                            <figcaption class="team-caption">
-                                <p>“Description about the TAG board member”</p>
-                                <hr class="hr-short">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                                </ul>
-                            </figcaption>
                         </figure>
                         <p class="team-name">YASHVARDHAN</p>
                         <p class="subtle">PUBLIC RELATION HEAD</p>
@@ -435,15 +195,6 @@ ___________    _____        ________
                     <div class="col-md-3 team-card">
                         <figure>
                             <img src="images/placeholder.jpg" data-src="board/box1/Operations-Head.jpg" class="img-fluid b-lazy" alt="teammember">
-                            <figcaption class="team-caption">
-                                <p>“Description about the TAG board member”</p>
-                                <hr class="hr-short">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                                </ul>
-                            </figcaption>
                         </figure>
                         <p class="team-name">SARTHAK</p>
                         <p class="subtle">OPERATIONS HEAD</p>
@@ -451,15 +202,6 @@ ___________    _____        ________
                     <div class="col-md-3 team-card">
                         <figure>
                             <img src="images/placeholder.jpg" data-src="board/box1/TAG-Projects-Head.jpg" class="img-fluid b-lazy" alt="teammember">
-                            <figcaption class="team-caption">
-                                <p>“Description about the TAG board member”</p>
-                                <hr class="hr-short">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                                </ul>
-                            </figcaption>
                         </figure>
                         <p class="team-name">TANMAY</p>
                         <p class="subtle">TAG PROJECTS HEAD</p>
@@ -467,15 +209,6 @@ ___________    _____        ________
                     <div class="col-md-3 team-card">
                         <figure>
                             <img src="images/placeholder.jpg" data-src="board/box1/Tech-Mentor.jpg" class="img-fluid b-lazy" alt="teammember">
-                            <figcaption class="team-caption">
-                                <p>“Description about the TAG board member”</p>
-                                <hr class="hr-short">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                                </ul>
-                            </figcaption>
                         </figure>
                         <p class="team-name">GIRISH</p>
                         <p class="subtle">TECH MENTOR</p>
@@ -485,15 +218,6 @@ ___________    _____        ________
                     <div class="col-md-3 team-card">
                         <figure>
                             <img src="images/placeholder.jpg" data-src="board/box1/Design-Head.jpg" class="img-fluid b-lazy" alt="teammember">
-                            <figcaption class="team-caption">
-                                <p>“Description about the TAG board member”</p>
-                                <hr class="hr-short">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                                </ul>
-                            </figcaption>
                         </figure>
                         <p class="team-name">HARIKA</p>
                         <p class="subtle">DESIGN HEAD</p>
@@ -501,15 +225,6 @@ ___________    _____        ________
                     <div class="col-md-3 team-card">
                         <figure>
                             <img src="images/placeholder.jpg" data-src="board/box1/Finance-Head.jpg" class="img-fluid b-lazy" alt="teammember">
-                            <figcaption class="team-caption">
-                                <p>“Description about the TAG board member”</p>
-                                <hr class="hr-short">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                                </ul>
-                            </figcaption>
                         </figure>
                         <p class="team-name">ABHISHEK</p>
                         <p class="subtle">FINANCE HEAD</p>
@@ -517,15 +232,6 @@ ___________    _____        ________
                     <div class="col-md-3 team-card">
                         <figure>
                             <img src="images/placeholder.jpg" data-src="board/box1/Core-Mentor.jpg" class="img-fluid b-lazy" alt="teammember">
-                            <figcaption class="team-caption">
-                                <p>“Description about the TAG board member”</p>
-                                <hr class="hr-short">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                                </ul>
-                            </figcaption>
                         </figure>
                         <p class="team-name">CHINMAY</p>
                         <p class="subtle">CORE MENTOR</p>
@@ -533,82 +239,79 @@ ___________    _____        ________
                     <div class="col-md-3 team-card">
                         <figure>
                             <img src="images/placeholder.jpg" data-src="board/box1/Events-Head.jpg" class="img-fluid b-lazy" alt="teammember">
-                            <figcaption class="team-caption">
-                                <p>“Description about the TAG board member”</p>
-                                <hr class="hr-short">
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin fa-lg"></i></a></li>
-                                </ul>
-                            </figcaption>
                         </figure>
                         <p class="team-name">SHIVAUM</p>
                         <p class="subtle">EVENTS HEAD</p>
                     </div>
                 </div>
             </div>
-            <div class="row tiny-margin">
-                <div class="col-md-11">
-                    <h2 class="short-hr-left">EVENTS</h2>
-                    <p>Some Fun Events Organised By TAG Club.</p>
+        
+        <div id="events" class="large-margin">
+            <div class="row heading tiny-margin">
+                <a href="events"></a><!-- Nav Anchor -->
+                <div class="col-md-auto">
+                    <h1 class="animation-element slide-down">OUR <span class="colored">EVENTS</span></h1>
+                </div>
+                <div class="col">
+                    <hr class="animation-element extend">
                 </div>
             </div>
             <div class="grid-gallery">
                 <div class="row">
                     <div class="col-md-4 gallery-item">
-                        <a href="images/img1.jpg" data-lightbox="studio_gallery">
-                            <div class="overlay gallery">
-                                <i class="fa fa-picture-o fa-3x"></i>
-                            </div>
-                            <img src="images/placeholder.jpg" data-src="images/img1.jpg" class="img-fluid b-lazy" alt="">
-                        </a>
+                        <img src="images/VGL.png" data-src="images/VGL.png" class="img-fluid b-lazy" alt="" >
                     </div>
                     <div class="col-md-4 gallery-item">
-                        <a href="images/img2.jpg" data-lightbox="studio_gallery">
-                            <div class="overlay gallery">
-                                <i class="fa fa-picture-o fa-3x"></i>
-                            </div>
-                            <img src="images/placeholder.jpg" data-src="images/img2.jpg" class="img-fluid b-lazy" alt="">
-                        </a>
+                        
+                            <img src="images/GAT.png" data-src="images/GAT.png" class="img-fluid b-lazy" alt="">
+                        
                     </div>
                     <div class="col-md-4 gallery-item">
-                        <a href="images/img3.jpg" data-lightbox="studio_gallery">
-                            <div class="overlay gallery">
-                                <i class="fa fa-picture-o fa-3x"></i>
-                            </div>
-                            <img src="images/placeholder.jpg" data-src="images/img3.jpg" class="img-fluid b-lazy" alt="">
-                        </a>
+                        <img src="images/Gamescon.png" data-src="images/gamescon.png" class="img-fluid b-lazy" alt="">
+                        
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4 gallery-item">
-                        <a href="images/img4.jpg" data-lightbox="studio_gallery">
-                            <div class="overlay gallery">
-                                <i class="fa fa-picture-o fa-3x"></i>
-                            </div>
-                            <img src="images/placeholder.jpg" data-src="images/img1.jpg" class="img-fluid b-lazy" alt="">
-                        </a>
+                       
+                            <img src="images/drug abuse.png" data-src="images/drug abuse.png" class="img-fluid b-lazy" alt="">
+                        
                     </div>
                     <div class="col-md-4 gallery-item">
-                        <a href="images/img5.jpg" data-lightbox="studio_gallery">
-                            <div class="overlay gallery">
-                                <i class="fa fa-picture-o fa-3x"></i>
-                            </div>
-                            <img src="images/placeholder.jpg" data-src="images/img5.jpg" class="img-fluid b-lazy" alt="">
-                        </a>
+                        
+                            <img src="images/Phoenix.png" data-src="images/Phoenix.png" class="img-fluid b-lazy" alt="">
+                        
                     </div>
                     <div class="col-md-4 gallery-item">
-                        <a href="images/img6.jpg" data-lightbox="studio_gallery">
-                            <div class="overlay gallery">
-                                <i class="fa fa-picture-o fa-3x"></i>
-                            </div>
-                            <img src="images/placeholder.jpg" data-src="images/img6.jpg" class="img-fluid b-lazy" alt="">
-                        </a>
+                        
+                            <img src="images/Studi 2 Stage.png" data-src="images/Studi 2 Stage.png" class="img-fluid b-lazy" alt="">
+                        
                     </div>
                 </div>
             </div>
         </div>
+        </div> 
+        <!--PROJECTS SECTION-->
+        <div id="projects" class="large-margin">
+            <a href="projects"></a><!-- Nav Anchor -->
+            <div class="row heading tiny-margin">
+                <div class="col-md-auto">
+                    <h1 class="animation-element slide-down"><span class="colored">TAG</span>PROJECTS</h1>
+                </div>
+                <div class="col">
+                    <hr class="animation-element extend">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="small-margin">TAG Projects is a pilto initiative to provide content and tutorials for aspiring Game Developers, be it VITian or not.</p>
+                    <p class="small-margin">In the upcoming years, we will be bringing you several Projects developed in-house at TAG, aimed specifically for Game Development</p>
+                </div>
+                <div class="col-md-6">
+                    <img id="support-image" src="images/projects.jpg" data-src="images/projects.jpg" class="img-fluid b-lazy tagprojectsimg" alt="projects">
+                </div>
+            </div>
+        </div>   
         <!-- /// CAREERS SECTION /// -->
         <div id="careers" class='large-margin'>
             <a href="careers"></a><!-- Nav Anchor -->
@@ -648,6 +351,7 @@ ___________    _____        ________
                         </div>
                     </div>
                 </div>
+                
                 <div class="col-md-4">
                     <div class="job-card">
                         <h3 class="colored">LEVEL DESIGNER</h3>
@@ -698,6 +402,7 @@ ___________    _____        ________
             </div>
            
         </div>
+
         <!-- /// CONTACT SECTION /// -->
         <div id="contact" class="large-margin">
             <a href="contact"></a><!-- Nav Anchor -->
@@ -760,7 +465,6 @@ ___________    _____        ________
                             <ul>
                                 <li><i class="fa fa-phone"></i><p>Phone: <span class="colored"><a href="tel:+919951284580">+91 (995)-128-4580</a></span></p></li>
                                 <li><i class="fa fa-envelope"></i><p>Email: <span class="colored">vineetkia@gmail.com</span></p></li>
-                                <li><i class="fa fa-globe"></i><p>Website: <span class="colored"><a href="https://tagclub.in" target="_blank">TAGCLUB.IN</a></span></p></li>
                                 <li><i class="fa fa-map-marker"></i><p>Address: <span class="colored">VIT KATPADI TAMIL-NADU 632001</span></p></li>
                             </ul>
                         </div>

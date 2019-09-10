@@ -118,6 +118,7 @@ p {
     font-size: 0.9375rem; /* 15px */
     padding: 5px 5px 5px 0;
     margin: 0;
+    
 }
 .strong {
     font-weight: bold;
@@ -164,7 +165,7 @@ ul {
 	margin-bottom: 6em; /* 96px */
 }
 .large-margin {
-	margin-bottom: 12em; /* 192px */
+	margin-bottom: 8em; /* 192px */
 }
 /* -<hr>- */
 hr {
@@ -409,6 +410,7 @@ button {
 /* --------------------------- /////////// V. ABOUT SECTION /////////// --------------------------- */
 #support-image {
     margin: 0 0 0 20%;
+    width: 60%;
 }
 /* --------------------------- /////////// VI. GAMES SECTION /////////// --------------------------- */
 .game-tags {
@@ -681,9 +683,6 @@ button {
 #team figure:hover > .team-caption {
     opacity: 1;
 }
-#team figure:hover > img {
-    filter: blur(2px);
-}
 .team-name {
     font-size: 1.5rem;
     padding-bottom: 0;
@@ -699,6 +698,7 @@ button {
     width: 100%;
     border: none;
 }
+
 /* --------------------------- /////////// VIII. CAREERS SECTION /////////// --------------------------- */
 .job-card {
     text-align: center;
@@ -925,7 +925,7 @@ button {
         margin-bottom: 3em;
     }
     .small-margin {
-        margin-bottom: 2em;
+        margin-bottom: 1em;
     }
     .heading {
         font-size: 1.50rem;
