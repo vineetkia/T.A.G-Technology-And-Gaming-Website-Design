@@ -83,10 +83,10 @@ ___________    _____        ________
                             <a class="nav-link" href="#events">EVENTS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#careers">CLUB</a>
-                        </li>
-                         <li class="nav-item">
                             <a class="nav-link" href="#projects">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#careers">CLUB</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">CONTACT</a>
@@ -101,12 +101,10 @@ ___________    _____        ________
     <div id="hero-section" class="medium-margin">
         <div class="row hero-unit">
             <div class="hero-overlay"></div>
-            <video autoplay loop muted poster="images/poster1.jpg" id="bgvid" class="img-fluid">
+            <video autoplay loop muted poster="" id="bgvid" class="img-fluid">
                 <source src="images/tagvid.mp4" type="video/mp4"><!-- your video goes here -->
             </video>
-             <div class="hero-caption">
-                <h1>ENDURE <span class="colored">COUNTER</span> CONQUER</h1>
-            </div>
+            
         </div>
     </div><!-- Hero Section End -->
     
@@ -259,38 +257,75 @@ ___________    _____        ________
             <div class="grid-gallery">
                 <div class="row">
                     <div class="col-md-4 gallery-item">
-                        <img src="images/VGL.png" data-src="images/VGL.png" class="img-fluid b-lazy" alt="" >
+                        <figure>
+                            <img src="images/VGL.jpg" data-src="images/VGL.jpg" class="img-fluid b-lazy" alt="" >
+                            <figcaption class="event-caption">
+                                <p>“VIT Gamers League is a 3-day nonstop gaming tournament conducted during the days of Riviera. Hundreds of participants showcase their unique talent and battle it out to be throned as the Champions and claim a lucrtative prize pool. Do you have a zeal to win? Do you want some adrenaline rushing action? Then look nowhere else, this is where you need to be.”</p>
+                                
+                            </figcaption>
+                        </figure>
+
+                        
                     </div>
                     <div class="col-md-4 gallery-item">
-                        
-                            <img src="images/GAT.png" data-src="images/GAT.png" class="img-fluid b-lazy" alt="">
-                        
+                        <figure>
+                            <img src="images/GAT.jpg" data-src="images/GAT.jpg" class="img-fluid b-lazy" alt="">
+                            <figcaption class="event-caption">
+                                <p>“Game-A-Thon is the most awaited E-Sports tournament conducted during the days of GraVITas. It brings together the gaming community and provides a platform for participants to test their mettle against their opponents. With hundreds of participants and a massive prize pool this is an event you would not want to miss.”</p>
+                                
+                            </figcaption>
+                        </figure>
                     </div>
                     <div class="col-md-4 gallery-item">
-                        <img src="images/Gamescon.png" data-src="images/gamescon.png" class="img-fluid b-lazy" alt="">
+                        <figure>
+                            <img src="images/Gamescon.jpg" data-src="images/gamescon.jpg" class="img-fluid b-lazy" alt="">
+                            <figcaption class="event-caption">
+                                <p>“Gamescon is an interaction event hosted by TAG where students are shown what TAG is all about. All the latest trends in the fields of Gaming and Technology are thoroughly displayed and discussed. The most recent iteration of the event was in collaboration with MSI and Unity which witnessed over 250+ participants.”</p>
+                                
+                            </figcaption>
+                        </figure>
+                        
                         
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4 gallery-item">
+                        <figure>
+                            <img src="images/drug abuse.jpg" data-src="images/drug abuse.jpg" class="img-fluid b-lazy" alt="">
+                            <figcaption class="event-caption">
+                                <p></p>
+                                
+                            </figcaption>
+                        </figure>
                        
-                            <img src="images/drug abuse.png" data-src="images/drug abuse.png" class="img-fluid b-lazy" alt="">
                         
                     </div>
                     <div class="col-md-4 gallery-item">
-                        
-                            <img src="images/Phoenix.png" data-src="images/Phoenix.png" class="img-fluid b-lazy" alt="">
-                        
+                        <figure>
+                            <img src="images/Phoenix.jpg" data-src="images/Phoenix.jpg" class="img-fluid b-lazy" alt="">
+                            <figcaption class="event-caption">
+                                <p>"Hackathons are something that we all have attended. But have you ever participated in a Cryptic Hunt? TAG club brings to you Phoenix, a 48-hour cryptic hunt. Uncover the secrets, find the hidden clues and battle it out against the time. Will you prevail against others? Only one way to find out. Register now and uncover the Phoenix."</p>
+                                
+                            </figcaption>
+                        </figure>
+                                 
                     </div>
                     <div class="col-md-4 gallery-item">
-                        
-                            <img src="images/Studi 2 Stage.png" data-src="images/Studi 2 Stage.png" class="img-fluid b-lazy" alt="">
+                        <figure>
+                            <img src="images/Studio.jpg" data-src="images/Studio.jpg" class="img-fluid b-lazy" alt="">
+                            <figcaption class="event-caption">
+                                <p>"Playing games is cool, but ever wondered how to make one? Look nowhere else. Studio-to-Stage is a GameDev workshop where participants will be taught to make their own game from scratch. With no prior coding knowledge required for Unity and Unreal Engine, it is relatively easy to learn and master."</p>
+                                
+                            </figcaption>
+                        </figure>
+                            
                         
                     </div>
                 </div>
             </div>
         </div>
-        </div> 
+    </div>
+         
         <!--PROJECTS SECTION-->
         <div id="projects" class="large-margin">
             <a href="projects"></a><!-- Nav Anchor -->
@@ -317,7 +352,7 @@ ___________    _____        ________
             <a href="careers"></a><!-- Nav Anchor -->
             <div class="row heading tiny-margin">
                 <div class="col-md-auto">
-                    <h1 class="animation-element slide-down">WE'RE <span class="colored">HIRING</span></h1>
+                    <h1 class="animation-element slide-down">JOIN <span class="colored">US</span></h1>
                 </div>
                 <div class="col">
                     <hr class="animation-element extend">
@@ -326,78 +361,34 @@ ___________    _____        ________
             <div class="row medium-margin">
                 <div class="col-md-11">
                     <h2 class="short-hr-left">CLUB Recruitments</h2>
-                    <p>Are you a talented and motivated individual? Then we would love to have you in our team.</p><br>
+                    <p>Want to be a part of our core club? 
+					The wait is soon to be over. Our doors will open for new members right from this Winter Sem.What we are looking for:-</p><br>
                 </div>
                 <div class="col-md-4">
                     <div class="job-card">
-                        <h3 class="colored">LEAD PROGRAMMER</h3>
-                        <p>A lead programmer is a software engineer in charge of one or more software projects and operation management.</p>
+                        <h3 class="colored">Technical Department</h3>
+                        <p>Our club works extensively on game development and level design along with a plethora of other departments. Applicants will be expected to have atleast a nit-bit of technical knowledge. But keep in mind, we give the "zeal to learn", the primary weightage. </p>
                     </div>
-                    <!-- Modal -->
-                    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="lead-programmer" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h2 class="modal-title colored" id="lead-programmer">LEAD PROGRAMMER</h2>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="button secondary" data-dismiss="modal">Close</button>
-                                    <a href="mailto:office@example.com" class="button">Apply</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
+                    
                 </div>
                 
                 <div class="col-md-4">
                     <div class="job-card">
-                        <h3 class="colored">LEVEL DESIGNER</h3>
-                        <p>Level design, environment design, or game mapping is a discipline of game development involving creation of video game levels.</p>
+                        <h3 class="colored">Design Department</h3>
+                        <p> Our well established design department works on photoshop, illustrator and 3D modelling and is known throughout VIT for its great variety of elegant and engaging Postors. If you want to learn, we assure you, you will learn from the best.</p>
                     </div>
-                    <!-- Modal -->
-                    <div class="modal fade " id="modal2" tabindex="-1" role="dialog" aria-labelledby="level-designer" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h2 class="modal-title colored" id="level-designer">LEVEL DESIGNER</h2>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="button secondary" data-dismiss="modal">Close</button>
-                                    <a href="mailto:office@example.com" class="button">Apply</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
+                    
                 </div>
                 <div class="col-md-4">
                     <div class="job-card">
-                        <h3 class="colored">MANAGEMENT</h3>
-                        <p>Management is the administration of an organization, whether it is a business, a not-for-profit organization, or government body. </p>
+                        <h3 class="colored">Management Department</h3>
+                        <p>TAG is responsible for hosting some of the biggest events in all of VIT, hence our management has to be on point to make these events reach the epitome of perfection.  We will be looking for people who are confident, hardworking and preferably with prior experience of organising events. </p>
                         
                     </div>
-                    <!-- Modal -->
-                    <div class="modal fade " id="modal3" tabindex="-1" role="dialog" aria-labelledby="ai-engineer" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h2 class="modal-title colored" id="ai-engineer">AI ENGINEER</h2>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="button secondary" data-dismiss="modal">Close</button>
-                                    <a href="mailto:office@example.com" class="button">Apply</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
+                    
                 </div>
             </div>
            
@@ -463,13 +454,13 @@ ___________    _____        ________
                         <h2 class="short-hr-left">OUR DETAILS</h2>
                         <div id="contact-info">
                             <ul>
-                                <li><i class="fa fa-phone"></i><p>Phone: <span class="colored"><a href="tel:+919951284580">+91 (995)-128-4580</a></span></p></li>
-                                <li><i class="fa fa-envelope"></i><p>Email: <span class="colored">vineetkia@gmail.com</span></p></li>
+                                <!-- <li><i class="fa fa-phone"></i><p>Phone: <span class="colored"><a href="tel:+919951284580">+91 (995)-128-4580</a></span></p></li> -->
+                                <li><i class="fa fa-envelope"></i><p>Email: <span class="colored">tag@vit.ac.in</span></p></li>
                                 <li><i class="fa fa-map-marker"></i><p>Address: <span class="colored">VIT KATPADI TAMIL-NADU 632001</span></p></li>
                             </ul>
                         </div>
                         <!-- Google Map -->
-                        <div id="map-canvas"></div>
+                        <!-- <div id="map-canvas"></div> -->
                     </div>
                 </div>
             </div>
@@ -539,6 +530,7 @@ ___________    _____        ________
     <script src="js/jquery-modal-video.min.js"></script>
     <script src="js/validator.min.js"></script>
     <script src="js/strider.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB64kJJiSynOc9ZqkNMOyl94cvsw5Z2uno"></script>
+<!--     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB64kJJiSynOc9ZqkNMOyl94cvsw5Z2uno"></script>-->
+ 
 </body>
 </html>
