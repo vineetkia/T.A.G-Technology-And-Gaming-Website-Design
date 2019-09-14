@@ -46,7 +46,7 @@ ___________    _____        ________
     <!-- Video Lightbox -->
     <link href="css/modal-video.min.css" rel="stylesheet">
     <!-- Main Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/nstyle.css" rel="stylesheet">
   
 </head>
 <body>
@@ -171,7 +171,7 @@ ___________    _____        ________
                         <figure>
                             <img src="images/placeholder.jpg" data-src="board/box1/Gen-Sec.jpg" class="img-fluid b-lazy" alt="teammember">
                         </figure>
-                        <p class="team-name">ARJEET</p>
+                        <p class="team-name">ARIJEET</p>
                         <p class="subtle">GENERAL SECRETARY</p>
                     </div>
                     <div class="col-md-3 team-card">
@@ -260,7 +260,7 @@ ___________    _____        ________
                         <figure>
                             <img src="images/VGL.jpg" data-src="images/VGL.jpg" class="img-fluid b-lazy" alt="" >
                             <figcaption class="event-caption">
-                                <p>“VIT Gamers League is a 3-day nonstop gaming tournament conducted during the days of Riviera. Hundreds of participants showcase their unique talent and battle it out to be throned as the Champions and claim a lucrtative prize pool. Do you have a zeal to win? Do you want some adrenaline rushing action? Then look nowhere else, this is where you need to be.”</p>
+                                <p>"VIT Gamers League is a 3-day nonstop gaming tournament conducted during the days of Riviera. Hundreds of participants showcase their unique talent and battle it out to be throned as the Champions and claim a lucrtative prize pool. Do you have a zeal to win? Do you want some adrenaline rushing action? Then look nowhere else, this is where you need to be."</p>
                                 
                             </figcaption>
                         </figure>
@@ -271,7 +271,7 @@ ___________    _____        ________
                         <figure>
                             <img src="images/GAT.jpg" data-src="images/GAT.jpg" class="img-fluid b-lazy" alt="">
                             <figcaption class="event-caption">
-                                <p>“Game-A-Thon is the most awaited E-Sports tournament conducted during the days of GraVITas. It brings together the gaming community and provides a platform for participants to test their mettle against their opponents. With hundreds of participants and a massive prize pool this is an event you would not want to miss.”</p>
+                               <p>"Game-A-Thon is the most awaited E-Sports tournament conducted during the days of GraVITas. It brings together the gaming community and provides a platform for participants to test their mettle against their opponents. With hundreds of participants and a massive prize pool this is an event you would not want to miss."</p> 
                                 
                             </figcaption>
                         </figure>
@@ -280,7 +280,7 @@ ___________    _____        ________
                         <figure>
                             <img src="images/Gamescon.jpg" data-src="images/gamescon.jpg" class="img-fluid b-lazy" alt="">
                             <figcaption class="event-caption">
-                                <p>“Gamescon is an interaction event hosted by TAG where students are shown what TAG is all about. All the latest trends in the fields of Gaming and Technology are thoroughly displayed and discussed. The most recent iteration of the event was in collaboration with MSI and Unity which witnessed over 250+ participants.”</p>
+                                <p>"Gamescon is an interaction event hosted by TAG where students are shown what TAG is all about. All the latest trends in the fields of Gaming and Technology are thoroughly displayed and discussed. The most recent iteration of the event was in collaboration with MSI and Unity which witnessed over 250+ participants."</p>
                                 
                             </figcaption>
                         </figure>
@@ -293,7 +293,7 @@ ___________    _____        ________
                         <figure>
                             <img src="images/drug abuse.jpg" data-src="images/drug abuse.jpg" class="img-fluid b-lazy" alt="">
                             <figcaption class="event-caption">
-                                <p></p>
+                                <p>"We all have seen how harmful drugs can be. Take the initiative and join us at a workshop conducted on substance abuse to learn more about the side effects of this practice and prevent it from spreading around us."</p> 
                                 
                             </figcaption>
                         </figure>
@@ -304,7 +304,7 @@ ___________    _____        ________
                         <figure>
                             <img src="images/Phoenix.jpg" data-src="images/Phoenix.jpg" class="img-fluid b-lazy" alt="">
                             <figcaption class="event-caption">
-                                <p>"Hackathons are something that we all have attended. But have you ever participated in a Cryptic Hunt? TAG club brings to you Phoenix, a 48-hour cryptic hunt. Uncover the secrets, find the hidden clues and battle it out against the time. Will you prevail against others? Only one way to find out. Register now and uncover the Phoenix."</p>
+                                <p>"Hackathons are something that we all have attended. But have you ever participated in a Cryptic Hunt? TAG club brings to you Phoenix, a 48-hour cryptic hunt. Uncover the secrets, find the hidden clues and battle it out against the time. Will you prevail against others? Only one way to find out. Register now and uncover the Phoenix."</p> 
                                 
                             </figcaption>
                         </figure>
@@ -314,7 +314,7 @@ ___________    _____        ________
                         <figure>
                             <img src="images/Studio.jpg" data-src="images/Studio.jpg" class="img-fluid b-lazy" alt="">
                             <figcaption class="event-caption">
-                                <p>"Playing games is cool, but ever wondered how to make one? Look nowhere else. Studio-to-Stage is a GameDev workshop where participants will be taught to make their own game from scratch. With no prior coding knowledge required for Unity and Unreal Engine, it is relatively easy to learn and master."</p>
+                                 <p>"Playing games is cool, but ever wondered how to make one? Look nowhere else. Studio-to-Stage is a GameDev workshop where participants will be taught to make their own game from scratch. With no prior coding knowledge required for Unity and Unreal Engine, it is relatively easy to learn and master."</p> 
                                 
                             </figcaption>
                         </figure>
@@ -339,7 +339,7 @@ ___________    _____        ________
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <p class="small-margin">TAG Projects is a pilto initiative to provide content and tutorials for aspiring Game Developers, be it VITian or not.</p>
+                    <p class="small-margin">TAG Projects is a pilot initiative to provide content and tutorials for aspiring Game Developers, be it VITian or not.</p>
                     <p class="small-margin">In the upcoming years, we will be bringing you several Projects developed in-house at TAG, aimed specifically for Game Development</p>
                 </div>
                 <div class="col-md-6">
@@ -376,7 +376,7 @@ ___________    _____        ________
                 <div class="col-md-4">
                     <div class="job-card">
                         <h3 class="colored">Design Department</h3>
-                        <p> Our well established design department works on photoshop, illustrator and 3D modelling and is known throughout VIT for its great variety of elegant and engaging Postors. If you want to learn, we assure you, you will learn from the best.</p>
+                        <p> Our well established design department works on photoshop, illustrator and 3D modelling and is known throughout VIT for its great variety of elegant and engaging Posters. If you want to learn, we assure you, you will learn from the best.</p>
                     </div>
                     
                     
@@ -384,7 +384,7 @@ ___________    _____        ________
                 <div class="col-md-4">
                     <div class="job-card">
                         <h3 class="colored">Management Department</h3>
-                        <p>TAG is responsible for hosting some of the biggest events in all of VIT, hence our management has to be on point to make these events reach the epitome of perfection.  We will be looking for people who are confident, hardworking and preferably with prior experience of organising events. </p>
+                        <p>TAG is responsible for hosting some of the biggest events in all of VIT, hence our management has to be on point to make these events reach the epitome of perfection.We will be looking for people who are confident, hardworking and preferably with prior experience of organising events. </p>
                         
                     </div>
                     
@@ -459,7 +459,7 @@ ___________    _____        ________
                                 <li><i class="fa fa-map-marker"></i><p>Address: <span class="colored">VIT KATPADI TAMIL-NADU 632001</span></p></li>
                             </ul>
                         </div>
-                        <!-- Google Map -->
+                        <div id="map-canvas"></div><!-- Google Map -->
                         <!-- <div id="map-canvas"></div> -->
                     </div>
                 </div>
@@ -477,7 +477,9 @@ ___________    _____        ________
                             <li><a href="https://www.facebook.com/tagvitu/"><i class="fa fa-facebook fa-lg icon-social"></i></a></li>
                             <li><a href="https://www.instagram.com/tagclub.vit/?hl=en"><i class="fa fa-instagram fa-lg icon-social"></i></a>
                         </ul>
+
                     </div>
+
                 </div>
             </div><!-- Container End -->
         </div>
@@ -530,7 +532,7 @@ ___________    _____        ________
     <script src="js/jquery-modal-video.min.js"></script>
     <script src="js/validator.min.js"></script>
     <script src="js/strider.js"></script>
-<!--     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB64kJJiSynOc9ZqkNMOyl94cvsw5Z2uno"></script>-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB64kJJiSynOc9ZqkNMOyl94cvsw5Z2uno"></script>
  
 </body>
 </html>
