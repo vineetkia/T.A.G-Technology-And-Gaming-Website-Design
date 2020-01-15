@@ -12,8 +12,8 @@
         $mail->isSMTP();
         $mail->Host = "smtp.gmail.com";
         $mail->SMTPAuth = true;
-        $mail->Username = "tagofficial8@gmail.com";
-        $mail->Password = 'spacexspacexspacex';
+        $mail->Username = "<LESSSECURE@EMAIL.COM>";
+        $mail->Password = '<YOUR-PASSWORD>';
         $mail->Port = 465;
         $mail->SMTPSecure = "ssl";
         $mail->isHTML(true);
